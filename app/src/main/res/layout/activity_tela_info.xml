@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Tela_Info">
+
+    <ImageView
+        android:id="@+id/logo1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+    <TextView
+        android:id="@+id/text_design"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Design By: "
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <ImageView
+        android:id="@+id/imagem_design"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/design"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_design"
+    />
+    <TextView
+        android:id="@+id/text_if"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- IFKED -"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imagem_design"
+        />
+
+    <TextView
+        android:layout_width="182dp"
+        android:layout_height="128dp"
+        android:text="- Alexandro Junior  - Bruno Bragagnolo - Caique Bruno             - Giovanni Marques - Guilherme Beig"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_if"
+        />
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="Exit"
+        android:textStyle="bold"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

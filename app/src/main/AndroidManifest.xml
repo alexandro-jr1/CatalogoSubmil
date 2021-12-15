@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.catalogosubmil">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CatalogoSubmil">
+        <activity
+            android:name=".Tela_Info"
+            android:exported="false" />
+        <activity
+            android:name=".Tela_Municoes_III"
+            android:exported="false" />
+        <activity
+            android:name=".Tela_Municoes_II"
+            android:exported="false" />
+        <activity
+            android:name=".Tela_Municoes"
+            android:exported="false" />
+        <activity
+            android:name=".Tela_Armas_Revolvers"
+            android:exported="false" />
+        <activity
+            android:name=".Tela_Equipamentos_IIII"
+            android:exported="false" />
+        <activity
+            android:name=".Tela_Equipamentos_III"
+            android:exported="false" />
+        <activity
+            android:name=".Tela_Equipamentos_II"
+            android:exported="false" />
+        <activity
+            android:name=".Tela_Armas_Rifles"
+            android:exported="false" />
+        <activity
+            android:name=".Tela_Armas_Escopetas"
+            android:exported="false" />
+        <activity
+            android:name=".Tela_Equipamentos"
+            android:exported="false" />
+        <activity
+            android:name=".Tela_Armas_Pistolas"
+            android:exported="false" />
+        <activity
+            android:name=".Tela_Inicial"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
